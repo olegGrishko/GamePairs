@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    /*vertical-align: middle;*/
+    border: 5px black solid;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 0;
+    padding-top: 7px;
+    list-style: none;
+    height: 150px;
+    width: 150px;
+    font-weight: 400;
+    font-size: 100px;
+}
+
+.btn {
+    font-size: 30px;
+    border-width: 3px;
+    margin-left: 270px;
+    visibility: hidden;
+}
